@@ -14,3 +14,6 @@ dist/
 Thumbs.db
 .vscode/
 .idea/
+
+# Generated knowledge graph (rebuild any time with /graphify)
+graphify-out/
