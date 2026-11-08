@@ -19,8 +19,8 @@ building it. Follow along on the project board.
 |---|---|---|
 | 1. Vision | ✅ | [docs/vision.md](docs/vision.md) |
 | 2. How it works | ✅ | [docs/glossary.md](docs/glossary.md) |
-| 3. Feature inventory | ⏭️ next | |
-| 4. Prioritise → first release | | |
+| 3. Feature inventory | ✅ | [docs/features.md](docs/features.md) |
+| 4. Prioritise → first release | ⏭️ next | |
 | 5. User stories | | |
 | 6. Spikes (technical experiments) | | |
 | 7. Release plan | | |
@@ -31,6 +31,7 @@ building it. Follow along on the project board.
 | Path | What it holds |
 |---|---|
 | [docs/vision.md](docs/vision.md) | Why this exists, who it is for, what success looks like |
+| [docs/features.md](docs/features.md) | Everything we might build, grouped into epics |
 | [docs/process.md](docs/process.md) | How we work: roles, the board, when work is *ready* and when it is *done* |
 | [docs/decisions/](docs/decisions/) | One short record per technical decision: options, trade-offs, choice |
 | [docs/glossary.md](docs/glossary.md) | Every technical term we use, in plain words |

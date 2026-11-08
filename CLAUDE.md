@@ -70,6 +70,7 @@ are read from the environment. GitHub secret scanning with push protection is on
 | Path | Holds |
 |---|---|
 | `docs/vision.md` | Vision, principles, non-goals, success |
+| `docs/features.md` | Feature inventory: epics, first-release focus, word log decision |
 | `docs/process.md` | Roles, board, Definition of Ready / Done, repo settings |
 | `docs/decisions/` | Decision records (`0000-template.md` to start one) |
 | `docs/glossary.md` | Plain-language terms |
@@ -78,8 +79,9 @@ are read from the environment. GitHub secret scanning with push protection is on
 
 ## Current state
 
-**Planning phase — no product code yet.** We are at step 3 of the process
-(feature inventory). The tech stack is not chosen; it will be decided in
+**Planning phase — no product code yet.** We are at step 4 of the process
+(prioritise and cut the first release); the feature inventory is in
+[docs/features.md](docs/features.md). The tech stack is not chosen; it will be decided in
 decision records before the first story is built. Do not reuse code from
 `prototype/` without reviewing it like new code.
 
