@@ -23,6 +23,8 @@ request that first uses them.
 | **Backend** | Code that runs on the server. Needed for anything shared between visitors, like a word log. |
 | **API** | A defined way for one program to talk to another — e.g. the page sending a word to the backend. |
 | **Local storage** | A small store inside the visitor's browser. Remembers things on that device only; the server never sees it. |
+| **IP address** | The number that identifies a device on the internet. Web servers write it into their logs by default; for the word log we switch that off. |
+| **Placeholder** | Grey example text inside an empty input field, shown until the visitor starts typing. |
 | **Cookie** | A small piece of data the browser sends back to the server on every visit. We don't plan to need any. |
 
 ## How the work is organised
@@ -40,6 +42,7 @@ request that first uses them.
 | **Kanban board** | Columns of cards showing where each piece of work is (Backlog → Done). |
 | **Definition of Ready / Done** | The checklists a story must pass to start, and to finish. See [process.md](process.md). |
 | **Decision record (ADR)** | A short file explaining one technical choice: options, trade-offs, decision. |
+| **Review pipeline** | A fixed series of steps work goes through every time, e.g. collect words → list → sort → turn candidates into stories. |
 | **Effort sizes (S / M / L)** | Rough size of a piece of work, compared to other pieces — not hours. |
 
 ## Git and GitHub
